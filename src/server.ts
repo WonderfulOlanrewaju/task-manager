@@ -1,5 +1,5 @@
 import {app} from './app';
-import dotenv from 'dotenv';
+import dotenv from "dotenv";
 dotenv.config();
 
 let port : number | string = process.env.PORT  || 9090;
